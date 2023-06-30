@@ -1,5 +1,12 @@
 # seazone-test
 
+## Para ter o repositório em sua máquina, bastar realizar o clone do projeto:
+
+1. Clonar Repositório
+
+git clone https://github.com/aramisSilva/seazone-test.git
+### Após clonar o repositório, entre na pasta do projeto e realize os passos a seguir:
+
 ## Instalação
 
 Utilize os comandos a seguir para criar o ambiente de virtualização e instalar as dependências e pacotes do projeto:
