@@ -19,6 +19,7 @@ O projeto depende dos seguintes pacotes:
 3. Navegue até o diretório do projeto: `cd seazone-test`
 4. Crie um ambiente virtual para o projeto: `python -m venv venv`
 5. Ative o ambiente virtual: `source venv/bin/activate` se for windows: `venv\Scripts\activate`
+6. Em seguida, crie um arquivo ".env" com os seguintes valores: `SECRET_KEY='django-insecure-gh%)izyra3=wxkvo_+w6x9xw6^_=e_3gt1b2*^45cp=r%p&tl8`
 6. Instale as dependências do projeto: `pip install -r requirements.txt`
 7. Execute as migrações do banco de dados: `python manage.py migrate`
 8. Crie um super usuário: `python manage.py createsuperuser`
