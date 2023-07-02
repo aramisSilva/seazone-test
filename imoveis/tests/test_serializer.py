@@ -41,7 +41,7 @@ class ImovelSerializerTest(TestCase):
 
     def test_validation(self):
         data = self.imovel_attributes
-        data['limite_hospedes'] = -1  # Limite de hospedes não pode ser negativo
+        data['limite_hospedes'] = -1
         serializer = ImovelSerializer(data=data)
         with self.assertRaises(ValidationError):
             serializer.is_valid(raise_exception=True)

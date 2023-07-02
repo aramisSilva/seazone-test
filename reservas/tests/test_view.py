@@ -43,7 +43,7 @@ class ReservaViewTest(TestCase):
             preco_total=100.00,
             numero_hospedes=2
         )
-        url = reverse('reservas-detail', args=[reserva.id])  # Use the URL name for your ReservaViewSet here
+        url = reverse('reservas-detail', args=[reserva.id])
         data = {
             "preco_total": 200.00,
         }
