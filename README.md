@@ -1,24 +1,42 @@
-# seazone-test
+# Projeto Seazone
 
-## Para ter o repositório em sua máquina, bastar realizar o clone do projeto:
+## Descrição do Projeto
 
-1. Clonar Repositório
+O projeto Seazone é uma API RESTful criada com o Django Rest Framework. A API fornece funcionalidades para gerenciamento de reservas, com autenticação de usuários e criação, atualização e exclusão de reservas.
 
-git clone https://github.com/aramisSilva/seazone-test.git
-### Após clonar o repositório, entre na pasta do projeto e realize os passos a seguir:
+## Dependências
+
+O projeto depende dos seguintes pacotes:
+
+- Python 3.8 ou superior
+- Django 4.2
+- Django Rest Framework 3.14
 
 ## Instalação
 
-Utilize os comandos a seguir para criar o ambiente de virtualização e instalar as dependências e pacotes do projeto:
+1. Certifique-se de que você tem Python 3.8 ou superior instalado. Você pode baixar o Python a partir do [site oficial](https://www.python.org/downloads/).
+2. Clone o repositório do projeto em sua máquina local: https://github.com/aramisSilva/seazone-test.git
+3. Navegue até o diretório do projeto: `cd seazone-test`
+4. Crie um ambiente virtual para o projeto: `python -m venv venv`
+5. Ative o ambiente virtual: `source venv/bin/activate` se for windows: `venv\Scripts\activate`
+6. Instale as dependências do projeto: `pip install -r requirements.txt`
+7. Execute as migrações do banco de dados: `python manage.py migrate`
+8. Crie um super usuário: `python manage.py createsuperuser`
+9. Execute o servidor: `python manage.py runserver`
+10. Acesse o servidor em http://localhost:8000
+11. Acesse a documentação da API em http://localhost:8000/swagger
+12. A API REST está disponível em `http://localhost:8000/api`
 
-### python3 -m venv venv/
-### source venv/bin/activate
-### pip install -r requirements.txt
+## Testes
+Você pode executar os testes do projeto com o seguinte comando:
+python manage.py test
 
-Em seguida, crie um arquivo ".env" com os seguintes valores:
-'django-insecure-^v(c6o*1$w$vo2(y2&&w%&ajf-clh$633u5464oz%ee4n4*2r%'
+## Contribuição
 
-## Executando a aplicação
+Sinta-se à vontade para contribuir para o projeto. Faça um fork do projeto, crie uma nova branch, faça suas alterações e, em seguida, abra um pull request.
 
-python manage.py runserver
+## Licença
+
+Este projeto é licenciado sob a licença MIT.
+
 
