@@ -29,9 +29,9 @@ O projeto depende dos seguintes pacotes:
 
 ## Popular o banco de dados
 
-1. python manage.py seed_reservas.py
-2. python manage.py seed_anuncios.py
-3. python manage.py seed_imoveis.py
+1. python manage.py `seed_reservas.py`
+2. python manage.py `seed_anuncios.py`
+3. python manage.py `seed_imoveis.py`
 
 ## Testes
 Você pode executar os testes do projeto com o seguinte comando:
